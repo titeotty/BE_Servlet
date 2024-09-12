@@ -8,11 +8,10 @@
 </head>
 <body>
 <h1>10년 후 나이계산 서비스</h1>
-<form>
-	현재 나이 입력 : <input type="text"> <br>
-	성별 : 남자<input type="radio"> 여자<input type="radio"> <br>
-	지역 : 서울<input type="radio"> 부산<input type="radio"> 대전<input type="radio"> <br>
-	<input type="submit"> <input type="reset">
+<form action="" method="">
+	현재 나이 입력 : <input type="text" name="age" value="	"> <br>
+	성별 : 남자<input type="radio" name="gender" value="g1"> 여자<input type="radio" name="gender" value="g2"> <br>
+	<input type="submit" value="확인"> <input type="reset" value="취소">
 </form>
 </body>
 </html>
