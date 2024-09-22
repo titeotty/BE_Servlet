@@ -8,10 +8,12 @@
 </head>
 <body>
 <h1>10년 후 나이계산 서비스</h1>
-<form action="" method="">
-	현재 나이 입력 : <input type="text" name="age" value="	"> <br>
+
+<form action="calc.do" method="post">
+	현재 나이 입력 : <input type="text" name="age"> <br>
 	성별 : 남자<input type="radio" name="gender" value="g1"> 여자<input type="radio" name="gender" value="g2"> <br>
 	<input type="submit" value="확인"> <input type="reset" value="취소">
 </form>
+<input type="checkbox"> 로그인 유지
 </body>
 </html>
