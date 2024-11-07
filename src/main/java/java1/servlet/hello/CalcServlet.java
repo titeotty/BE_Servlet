@@ -21,8 +21,8 @@ public class CalcServlet extends HttpServlet {
 		System.out.println("post 방식으로");
 		String age = request.getParameter("age");
 		int result = Integer.parseInt(age)+10;
-		response.setContentType("text/html; charset=UTF-8");
 		
+		response.setContentType("text/html; charset=UTF-8");
 		System.out.println(result);
 		PrintWriter out = response.getWriter();
 		out.println("<html>");

@@ -4,11 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>문제 발생!</title>
+<title>request 기본객체</title>
 </head>
 <body>
-
-<h1> 죄송합니다 곧 조치 취하도록 하겠습니다.</h1>
-
+<%
+	session.removeAttribute("loginCheck");
+//	session.invalidate();
+	response.sendRedirect("01LoginForm.jsp");
+%>
 </body>
-</html>
+</html>	
