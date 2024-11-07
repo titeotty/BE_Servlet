@@ -8,7 +8,7 @@
 <body>
 
 <h1> 회원가입 </h1>
-<form action="insert1.jsp" method="post">
+<form action="insert2.jsp" method="post">
  아이디 : <input type="text" name="memberId"><br>
  암호 : <input type="text" name="password"><br>
  이름 : <input type="text" name="name"><br>
